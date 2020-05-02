@@ -1,1 +1,3 @@
-export default () => document.body.onload = () => document.body.classList.add(`body--loaded`);
+export default () => {
+  document.body.onload = () => document.body.classList.add(`body--loaded`);
+};
