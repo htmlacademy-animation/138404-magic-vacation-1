@@ -51,8 +51,9 @@
   transition-property: opacity, transform;
   transition-timing-function: cubic-bezier(0.5, 0.8, 1, 1);
   transition-duration: 0.5s;
+  transition-delay: 0.6s;
 
-  .body--loaded & {
+  .body--loaded .active & {
     transform: translateY(0);
     opacity: 1;
   }
@@ -312,7 +313,9 @@
 }
 
 .screen--prizes {
-  background-color: $c-dark;
+  &.active {
+    z-index: 2;
+  }
 }
 
 .screen--game {
