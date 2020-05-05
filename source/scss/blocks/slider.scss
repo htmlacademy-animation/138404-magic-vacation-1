@@ -283,13 +283,3 @@
 .swiper-slide-next .slider__item-text {
   animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) 1s both;
 }
-
-
-@keyframes text-focus-in {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
