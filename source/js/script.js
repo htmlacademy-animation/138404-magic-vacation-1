@@ -9,7 +9,7 @@ import form from './modules/form.js';
 import social from './modules/social.js';
 import FullPageScroll from './modules/full-page-scroll';
 import bodyOnload from "./modules/bodyOnload";
-import rules from "./modules/rules"
+import rules from "./modules/rules";
 
 // init modules
 bodyOnload();

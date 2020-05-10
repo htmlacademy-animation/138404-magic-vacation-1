@@ -1,5 +1,5 @@
 import throttle from 'lodash/throttle';
-import { TitleAccentTypography, DateAccentTypography} from './intro';
+import {TitleAccentTypography, DateAccentTypography} from './intro';
 
 export default class FullPageScroll {
   constructor() {

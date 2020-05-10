@@ -1,5 +1,5 @@
 export default class AccentTypography {
-  constructor(element, timer, delay, classForActivate,  property) {
+  constructor(element, timer, delay, classForActivate, property) {
     this._element = element;
     this._property = property;
     this._timer = timer;
@@ -10,7 +10,7 @@ export default class AccentTypography {
   }
 
   createElement(letter) {
-    const span = this.createSpanElement()
+    const span = this.createSpanElement();
 
     span.className = `letter`;
     span.textContent = letter;
@@ -35,7 +35,7 @@ export default class AccentTypography {
         fragment.appendChild(this.createElement(letter));
         return fragment;
       }, document.createDocumentFragment());
-      const wordContainer = this.createSpanElement()
+      const wordContainer = this.createSpanElement();
 
       wordContainer.classList.add(`space`);
       wordContainer.appendChild(wordElement);
