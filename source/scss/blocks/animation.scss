@@ -97,7 +97,7 @@
 @keyframes rotateToRight {
   from {
     opacity: 0;
-    transform: translateX(-60px) rotate(-135deg);
+    transform: translateX(-60rem) rotate(-135deg);
   }
   to {
     visibility: visible;
@@ -108,7 +108,7 @@
 @keyframes rotateToLeft {
   from {
     opacity: 0;
-    transform: translateX(60px) rotate(135deg);
+    transform: translateX(60rem) rotate(135deg);
   }
   to {
     visibility: visible;
