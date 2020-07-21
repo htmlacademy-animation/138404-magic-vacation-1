@@ -29,12 +29,12 @@
       <path id="suitcaseFlyPath" d="M179,111c24.19-9.24,29.8-15.84,29.42-20.44C207.18,75.43,138.73,51.78,96,84c-2.93,2.21-31.66,24.52-29,54,3.54,39.18,59.83,61.15,75.7,67.35,53.65,20.94,94.43,8.79,101.78,27.18,2.89,7.25.78,19.69-21.48,42.47"/>
     </defs>
     <g id="suitcase" transform="translate(-90 -248)">
-      <animateMotion dur="3s" begin="fromAppearance.begin + 1s" fill="freeze" keyTimes="0; 0.1; 0.2; 0.6; 1">
+      <animateMotion dur="2s" begin="fromAppearance.begin + 1s" fill="freeze" keyTimes="0; 0.1; 0.2; 0.6; 1">
         <mpath href="#suitcaseFlyPath"/>
       </animateMotion>
-      <animateTransform attributeName="transform" type="rotate" values="30; -30; 20; 18.29; -6.84; 0" dur="5s" fill="freeze" begin="fromAppearance.begin + 1s"/>
-      <animateTransform attributeName="transform" type="scale" values="0 0; 0 0; 0.2 0.2; 0.5 0.5; 1 1" dur="5s" fill="freeze" begin="fromAppearance.begin + 1s" additive="sum" keyTimes="0; 0.1; 0.4; 0.6 ; 1"/>
-      <animateTransform attributeName="transform" type="translate" values="-90 -300; -90 -248" dur="5s" fill="freeze" begin="fromAppearance.begin + 1s" additive="sum"/>
+      <animateTransform attributeName="transform" type="rotate" values="30; -30; 20; 18.29; -6.84; 0" dur="3s" fill="freeze" begin="fromAppearance.begin + 1s"/>
+      <animateTransform attributeName="transform" type="scale" values="0 0; 0 0; 0.2 0.2; 0.5 0.5; 1 1" dur="3s" fill="freeze" begin="fromAppearance.begin + 1s" additive="sum" keyTimes="0; 0.1; 0.4; 0.6 ; 1"/>
+      <animateTransform attributeName="transform" type="translate" values="-90 -300; -90 -248" dur="3s" fill="freeze" begin="fromAppearance.begin + 1s" additive="sum"/>
       <path d="M251.89,328.88a3.54,3.54,0,0,0,3.53-3.53v-5.07a3.53,3.53,0,1,0-7.06,0v5.07a3.55,3.55,0,0,0,3.53,3.53" transform="translate(-146.13 -81.79)" fill="#a67ee5"/>
       <path d="M251.89,328.88a3.54,3.54,0,0,0,3.53-3.53v-5.07a3.53,3.53,0,1,0-7.06,0v5.07A3.55,3.55,0,0,0,251.89,328.88Z" transform="translate(-146.13 -81.79)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
       <path d="M176.35,328.88a3.54,3.54,0,0,0,3.53-3.53v-5.07a3.53,3.53,0,1,0-7.06,0v5.07a3.54,3.54,0,0,0,3.53,3.53" transform="translate(-146.13 -81.79)" fill="#a67ee5"/>
